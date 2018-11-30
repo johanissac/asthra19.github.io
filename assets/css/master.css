@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 body{
-  background: url("/assets/bg1.jpg");
+  background: url("../bg1.jpg");
   background-position: center;
   background-size: cover;
   height: 100vh;
@@ -39,38 +39,15 @@ body{
   font-size: 40px;
   color:#FFF;
 }
-.counter-div{
-
-  
-  text-align: center;
-  color:#fff;
-  font-size: 40px;  
-  display: block;
-
-
+.flip-clock-wrapper ul li a div div.inn{
+  background-color: #FFF;
+  color: red;
 }
-.counter{
-  float: left;
-  position: relative;
-  right:0px;
-width: 120px;
-border:2px white solid;
-line-height: 2px;
-padding-bottom :50px;
-padding-left: 1px;
-padding-right: 1px;
-margin-left: 4px;
-margin-right :4px;
+.flip-clock-dot{
+  background-color: #FFF;
+}
+.clock{
+  left: 25%;
+}
 
-}
-.counter:hover{
-  background-color: rgba(88, 88, 88, 0.404);
-}
-#days,#hours,#minutes,#seconds{
-  font-size: 60px;
-}
-.counter-text{
-  font-size: 30px;
-
-}
 
