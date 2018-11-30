@@ -1,11 +1,28 @@
 body{
   background-image: url("/assets/bg1.jpg");
   backround-size:cover;
+  background-position:right center;
+  
 }
-.count{
+.container{
   margin:auto;
-  padding:auto;
+  align-items: center;
+}
+.counter-div{
   text-align: center;
   color:#fff;
   font-size: 100px;
+}
+.counter{
+
+line-height: 2px;
+padding-bottom :5px;
+
+}
+#days,#hours,#minutes,#seconds{
+  font-size: 100px;
+}
+.counter-text{
+  font-size: 30px;
+  
 }

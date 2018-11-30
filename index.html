@@ -16,8 +16,9 @@
 
             <!-- CSS-->
 
-    <link rel="stylesheet" href="assets/css/master.css">
-    <!-- End Of CSS-->
+                <link rel="stylesheet" href="assets/css/master.css">
+                <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <!-- End Of CSS-->
 
 
 
@@ -27,10 +28,34 @@
     <title>ASTHRA'19 </title>
   </head>
   <body>
-
-    <div class="count">
-      <p id="counter"> </p>
+    <div class="container">
+      <section class="counter-div">
+        <div class="row">
+          <div class="col-3 counter">
+            <h2 id="days"></h2>
+            <br>  
+            <span class="counter-text">Days</span>      
+          </div>
+          <div class="col-3 counter">
+              <h2 id="hours"></h2>
+              <br>  
+              <span class="counter-text">Hours</span>      
+            </div> 
+               <div class="col-3 counter ">
+                <h2 id="minutes"></h2>
+                <br>  
+                <span class="counter-text">Minutes</span>      
+              </div> 
+               <div class="col-3 counter ">
+                  <h2 id="seconds"></h2>
+                  <br>  
+                  <span class="counter-text">Seconds</span>      
+                </div>
+        </div>
+      </section>
     </div>
-      <script src="assets/js/counter.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/js/animatedModal.min.js"></script>
+    <script src="assets/js/counter.js"></script>
   </body>
 </html>
