@@ -25,7 +25,7 @@ body{
   margin:auto;
   align-items: center;
   display: inline-block;
-  position: fixed;
+  
   top: 0;
   bottom: 0;
   left: 0;
@@ -35,19 +35,36 @@ body{
   margin: auto;
   padding-top: 200px;
 }
+.comming-soon{
+  font-size: 40px;
+  color:#FFF;
+}
 .counter-div{
+
+  
   text-align: center;
   color:#fff;
-  font-size: 40px;
+  font-size: 40px;  
+  display: block;
+
 
 }
 .counter{
-
+  float: left;
+  position: relative;
+  right:0px;
+width: 120px;
+border:2px white solid;
 line-height: 2px;
 padding-bottom :50px;
 padding-left: 1px;
 padding-right: 1px;
+margin-left: 4px;
+margin-right :4px;
 
+}
+.counter:hover{
+  background-color: rgba(88, 88, 88, 0.404);
 }
 #days,#hours,#minutes,#seconds{
   font-size: 60px;
