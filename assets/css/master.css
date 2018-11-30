@@ -1,0 +1,11 @@
+body{
+  background-image: url("/assets/bg1.jpg");
+  backround-size:cover;
+}
+.count{
+  margin:auto;
+  padding:auto;
+  text-align: center;
+  color:#fff;
+  font-size: 100px;
+}
